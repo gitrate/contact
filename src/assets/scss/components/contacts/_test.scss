@@ -1,0 +1,206 @@
+/* 01 ************************************************************************* 01 */
+/* header ************************************************************************* header */
+.header {
+  padding-top: 40px;
+  padding-bottom: 160px;
+}
+.top-screen {
+  background-color: #38374f;
+  background-image: url("../img/01_books_1.jpg");
+  width: 100%;
+  height: 100%;
+}
+.logo-menu ul {
+  text-align: right;
+  padding: 12px 0 0 0;
+  text-transform: uppercase;
+}
+.logo-menu li {
+  display: inline;
+  margin-right: 18px;
+}
+.logo-menu li:last-child {
+  margin-right: 0;
+}
+.logo-menu a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: #f5f5f5;
+}
+
+.logo-menu a img{
+  padding: 0 0 3px 0;
+}
+
+.logo-menu a:hover {
+  color: #753d9d;
+}
+/* header ************************************************************************* header */
+
+.h1-holder {
+  padding-bottom: 65px;
+}
+.h1-holder h1 {
+  display: inline;
+  color: #fff;
+  font: 800 70px/1 'Montserrat', sans-serif;
+  /*padding-right: 20px;*/
+}
+.h1-magenta {
+  color: #a066c9;
+  font: 800 70px/1 'Montserrat', sans-serif;
+  padding: 0 10px;
+}
+
+.breadcr {
+  display: inline-block;
+  margin-bottom: 25px;
+}
+.breadcr img {
+  float: right;
+  padding-top: 5px;
+}
+.breadcr ul {
+  text-align: left;
+  //padding: 0 40px 0 0;
+  text-transform: capitalize;
+}
+.breadcr li {
+  display: inline-block;
+  padding-right: 0px;
+  margin-right: 10px; /* расстояние общее */
+}
+.breadcr a {
+  color: #fff;
+  padding-right: 10px; /* расстояние внутри */
+}
+.breadcr a:hover {
+  color: #a066c9;
+}
+/* 01 ************************************************************************* 01 */
+/* 02 ************************************************************************* 02 */
+.contact-details {
+  padding-top: 105px;
+
+  background: white;
+}
+.contact-image-wrapper {
+  height: 145px;
+  margin-bottom: 55px;
+}
+.contact-image-wrapper.email img {
+  padding: 16px 0;
+}
+
+
+.contact-details h2 {
+  font: 400 20px/1 'Montserrat', sans-serif;
+  color: #0d113d;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.contact-details p {
+  font: 300 15px/1 'Montserrat', sans-serif;
+  color: #0d113d;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.contact-details div {
+  font: 600 15px/1 'Montserrat', sans-serif;
+  color: #753d9d;
+  text-align: center;
+  padding-bottom: 15px;
+}
+/* 02 ************************************************************************* 02 */
+/* 03 ************************************************************************* 03 */
+.map {
+  background-image: url("../img/map.jpg");
+  height: 540px;
+}
+/* 03 ************************************************************************* 03 */
+/* 04 ************************************************************************* 04 */
+.contact-form {
+  height: 720px;
+}
+/* 04 ************************************************************************* 04 */
+.footer {
+  background-color: #0d113d;
+  height: 530px;
+  overflow: hidden;
+}
+.content-section-top {
+    background-color: #0d113d;
+    height: 530px;
+    position: relative;
+  }
+
+.content-section-top .register-form{
+  position: absolute;
+  left: 50%; /* смещение верхнего левого угла относительно левого края родителя */
+  /* top: 0%; смещение верхнего левого угла относительно верхнего края родителя */
+  transform: translate(-50%, -50%); /* смещение точки отсчета дочернего элемента по X и Y */
+  background-color: #753d9d;
+  border-radius: 3px;
+  height: 240px;
+  width: 100%;
+}
+.content-section-mid a{
+  padding-top: 320px;
+}
+.bottom-menu {
+
+}
+.copyright {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.outer-block {
+//  position: relative;
+//  height: 300px;
+//  width: 100%;
+//  background-color: #0d113d;
+//  overflow: hidden;
+//}
+//.outer-block .inner-block {
+//  position: absolute;
+//  left: 50%; /* смещение верхнего левого угла относительно левого края родителя */
+//  top: 0%; /* смещение верхнего левого угла относительно верхнего края родителя */
+//  transform: translate(-50%, -50%); /* смещение точки отсчета дочернего элемента по X и Y */
+//  background-color: #753d9d;
+//  border-radius: 3px;
+//  height: 240px;
+//  width: 100%;
+//}
+
