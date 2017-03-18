@@ -112,11 +112,18 @@
   text-align: center;
   padding-bottom: 15px;
 }
+p.last {
+  padding-bottom: 60px;
+}
 /* 02 ************************************************************************* 02 */
 /* 03 ************************************************************************* 03 */
 .map {
-  background-image: url("../img/map.jpg");
-  height: 540px;
+  height: 440px;
+  position: relative;
+}
+.map-frame {
+  height: 100%;
+  width: 100%;
 }
 /* 03 ************************************************************************* 03 */
 /* 04 ************************************************************************* 04 */
@@ -127,39 +134,61 @@
 .footer {
   background-color: #0d113d;
   height: 530px;
-  overflow: hidden;
 }
 .content-section-top {
-    background-color: #0d113d;
-    height: 530px;
-    position: relative;
-  }
-
+  background-color: #0d113d;
+  padding-bottom: 70px;
+}
 .content-section-top .register-form{
-  position: absolute;
-  left: 50%; /* смещение верхнего левого угла относительно левого края родителя */
-  /* top: 0%; смещение верхнего левого угла относительно верхнего края родителя */
-  transform: translate(-50%, -50%); /* смещение точки отсчета дочернего элемента по X и Y */
   background-color: #753d9d;
-  border-radius: 3px;
-  height: 240px;
+  border-radius: 0 0 3px 3px;
+  height: 120px;
   width: 100%;
 }
-.content-section-mid a{
-  padding-top: 3npm 20px;
+.content-section-mid img {
+  padding-bottom: 40px;
+}
+.content-section-mid p {
+  font: 300 15px/1.66 'Montserrat', sans-serif;
+  color: #fff;
 }
 .bottom-menu {
-
+  border-right: 1px;
+  border-color: ;
 }
-.copyright {
-
+.bottom-menu ul {
+  margin-top: 28px;
+  font: 300 15px/2.66 'Montserrat', sans-serif;
+  color: #fff;
+}
+.copyright p {
+  font: 300 15px/1 'Montserrat', sans-serif;
+  color: #b3b5d1;
 }
 
 
+/* 1. Установить Node.js
+https://nodejs.org/en/
 
+2. Установить bower
+npm install -g bower
 
+3. Склонировать проект (не складывать проект в папку с другим проектом)
+git clone https://github.com/zurb/foundation-zurb-template projectname
 
+4. Перейти в папку с созданным проектом (по умолчанию, после клонирования, вы находитесь в родительской директории)
 
+5. Установить gulp
+npm install gulp
+
+6. Прописать зависимости в npm
+npm i
+
+7. Прописать зависимости в bower
+bower i
+
+8. Запустить проект
+npm start */
 
 
 
